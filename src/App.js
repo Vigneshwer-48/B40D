@@ -30,4 +30,4 @@ function User({name, pic}){
      
 }
 
-export default App
+export default App;
