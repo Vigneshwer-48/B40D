@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import { Counter } from './Counter';
 
 function App() {
   return (
@@ -13,9 +14,11 @@ pic="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBcg5OV7m4Ojt-6P7o0Jw
 <User 
 name="Kullan"
 pic="https://wallpapercave.com/wp/wp5979216.jpg"/>
+
     </div>
   );
 }
+
 function User({name, pic}){
   //console.log(props, typeof props);
   return (
@@ -24,6 +27,7 @@ function User({name, pic}){
     <h1 className="user-name">
     Hello, <span className="user-first-name">{name}❤️❤️❤️</span>
     </h1>
+    <Counter/>
     </section>
   );
     
